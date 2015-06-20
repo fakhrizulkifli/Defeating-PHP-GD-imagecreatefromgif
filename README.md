@@ -10,11 +10,11 @@ imagegif($gif, 'exploit.gif');
 imagedestroy($gif);
 ?>
 ```
->So this is the hexadecimal dump before the new image recreation. As you can see at the 4th and 5th lines, there are >nothing.
+>So this is the hexadecimal dump before the new image recreation. As you can see at the 4th and 5th lines, there are nothing and please notice that there are still EXIF data.
 
 ![before](http://i.imgur.com/DSuLQdy.png "Before Recreate")
 
->After the recreation, the new image file hexadecimal dump also have that "sweet spot" where nothing is appended there. So let's try injecting our backdoor there.
+>After the recreation, the new image file hexadecimal dump also have that "sweet spot" where nothing is appended there. Also the EXIF data is already removed after the recreation process. So let's try injecting our backdoor there.
 
 ![after](http://i.imgur.com/E9Ycpro.png "After Recreate")
 
