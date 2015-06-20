@@ -18,11 +18,11 @@ imagedestroy($gif);
 
 ![after](http://i.imgur.com/E9Ycpro.png "After Recreate")
 
->Now, the PHP backdoor is append at that blank space because this is the only space stay the same before and after the recreation process.
+>Now, the PHP backdoor is append at that blank space because this is the only space that stay the same before and after the recreation process.
 
 ![before](http://i.imgur.com/6UxVL50.png "Before Injection")
 
->Voila!, as you can see the code is still there even after the recreation of new image file.
+>Voila !, as you can see the code is still there even after the recreation of new image file.
 
 ![after](http://i.imgur.com/37tjMQS.png "After Injection")
 
