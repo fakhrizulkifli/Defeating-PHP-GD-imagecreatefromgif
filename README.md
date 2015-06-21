@@ -1,5 +1,5 @@
 # Exploiting PHP-GD imagecreatefromgif() function
-Developer uses GD (or Imagemagick) library in order to image header script execution by recreating the image with the new one. This will wipe the image headers, and any embedded code present.
+Developer uses GD (or Imagemagick) library in order to prevent image header script execution by recreating the image with the new one. This will wipe the image headers, and any embedded code present.
 
 This is the script to generate the payload
 
